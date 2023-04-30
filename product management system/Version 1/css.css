@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui;
+    background-color: #3F3F3F;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.container h2 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+.container p {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+    .container h2 {
+        font-size: 20px;
+    }
+    .container p {
+        font-size: 16px;
+    }
+}
+
+.container h2,
+.container p {
+    text-transform: uppercase;
+}
+
+.container .Products-control {
+    margin-top: 10px;
+}
+
+.container .Products-control input,
+button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #232323;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.container .Products-control #title {
+    width: 100%;
+}
+
+.container .Products-control .prices-value {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container .Products-control .prices-value input {
+    width: 20%;
+}
+
+.container .Products-control .prices-value .total {
+    padding: 8px;
+    background-color: #232323;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container .Products-control .prices-value .active {
+    background-color: #32005A;
+}
+.container .Products-control input#count,
+.Products-control input#category,
+.Products-control button.create {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.container .Products-control button {
+    background-color: #32005A;
+}
+
+
+.container .Products-control .Product-search {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .Products-control .Product-search input {
+    width: 100%;
+}
+
+.container .Products-control .Product-search button {
+    width: 40%;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: background-color, letter-spacing 0.5s;
+    -webkit-transition: background-color, letter-spacing 0.5s;
+    -moz-transition: background-color, letter-spacing 0.5s;
+    -ms-transition: background-color, letter-spacing 0.5s;
+    -o-transition: background-color, letter-spacing 0.5s;
+}
+.container  button:hover {
+    background-color: #1F0038;
+    letter-spacing: 1px;
+}
+.container .Products-control .delete-All {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    display: none;
+}
+
+.container .Products-control input:focus {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    background-color: #1b1b1b;
+}
+
+@media (max-width: 1199.98px) {
+    .container .Products-control input:focus {
+        transform: scale(1.02);
+    }
+}
+
+.container .productsTabel {
+    margin-top: 10px;
+}
+
+.container .productsTabel table {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+table tr th,
+table tr td {
+    border-top: 2px solid #eee;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+table tr td.update button,
+table tr td.delete button {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #32005A;
+}
+
+@media (max-width: 767.98px) {
+
+    table tr th,
+    table tr td {
+        font-weight: normal;
+        font-size: x-small;
+    }
+
+    table tr td.update button,
+    table tr td.delete button {
+        font-size: x-small;
+        padding: 5px;
+        background-color: #32005A;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}
+img:first-child {
+    visibility: visible;
+}
+

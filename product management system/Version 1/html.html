@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/product management system/Version 1/css.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Cruds: Full product management system</h2>
+        <p>Create Read Update Delete Search</p>
+        <div class="Products-control">
+            <input type="text" id="title" placeholder="title">
+            <div class="prices-value">
+                <input type="number" placeholder="price" id="price">
+                <input type="number" placeholder="taxes" id="taxes">
+                <input type="number" placeholder="ads" id="ads">
+                <input type="number" placeholder="discount" id="discount">
+                <div class="total">
+                    Total: <span></span>
+                </div>
+            </div>
+            <input type="number" placeholder="count" id="count">
+            <input type="text" placeholder="category" id="category">
+            <button class="create">Create</button>
+            <div class="Product-search">
+                <input type="text" placeholder="Search By Title" id="search">
+                <button id="searchTitle">Search By title</button>
+                <button id="searchCategory">Search By Category</button>
+            </div>
+            <button class="delete-All"></button>
+        </div>
+        <div class="productsTabel"> 
+            <table>
+                <tr class="GG">
+                    <th>id</th>
+                    <th>title</th>
+                    <th>PRICE</th>
+                    <th>TAXES</th>
+                    <th>ADS</th>
+                    <th>DISCOUNT</th>
+                    <th>TOTAL</th>
+                    <th>CATEGORY</th>
+                    <th>UPDATE</th>
+                    <th>DELETE</th>
+                </tr>
+                <tbody class="prodects">
+                </tbody>
+                
+            </table>
+        </div>
+    </div>
+    <script src="/product management system/Version 1/js.js"></script>
+</body>
+
+</html>

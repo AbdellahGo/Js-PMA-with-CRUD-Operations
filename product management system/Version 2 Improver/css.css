@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: white;
+    font-family: system-ui;
+}
+
+.crud {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.crud .head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    margin: 4px 0;
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+img {
+    visibility: visible;
+}
+input:focus {
+    background-color: black;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+#deleteAll {
+    margin: 10px 0;
+}
+.price input {
+    width: 20%;
+}
+.price #total {
+    background-color: #A00D02;
+    padding: 5px 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.price #total::before {
+    content: 'Total: ';
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #390053;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: background-color, letter-spacing 1s;
+    -webkit-transition: background-color, letter-spacing 1s;
+    -moz-transition: background-color, letter-spacing 1s;
+    -ms-transition: background-color, letter-spacing 1s;
+    -o-transition: background-color, letter-spacing 1s;
+}
+button:hover {
+    background-color: #51025F;
+    letter-spacing: 1px;
+}
+
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSearch button {
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+th, td {
+    border-top: 1px solid #eee;
+    padding: 5px;
+}
