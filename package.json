@@ -1,0 +1,18 @@
+{
+  "homepage": "https://github.com/AbdellahGo/Js-PMA-with-CRUD-Operations/",
+  "name": "js-pma-with-crud-operations",
+  "version": "1.0.0",
+  "description": "This repository contains a web application built using HTML and CSS for managing product data using CRUD (Create, Read, Update, Delete) operations. The application provides an easy-to-use interface for adding, viewing, updating, and deleting products.",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
